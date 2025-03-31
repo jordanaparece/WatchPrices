@@ -34,7 +34,7 @@ brand, model, movement type, complication, and most importantly, the price in US
 
 # Tools Used
 * SQL, PGAdming4, Postgresql, Excel, Tableau
-* SQL techniques used - CTEs, basic select and group by functions, aggregate functions
+* SQL techniques used - CTEs, CASE statement, basic select and group by functions, aggregate functions
 
 # Challenges
 The main challenge of performing analysis on this dataset was data cleaning. In the original dataset from Kaggle, there were n/a values present in the dataset,
