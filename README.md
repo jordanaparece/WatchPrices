@@ -38,5 +38,5 @@ brand, model, movement type, complication, and most importantly, the price in US
 
 # Challenges
 The main challenge of performing analysis on this dataset was data cleaning. In the original dataset from Kaggle, there were n/a values present in the dataset,
-so filtering out those was necessary for further analysis. Furthermore, the original dataset uses a comma in the cell, so I chose to remove all commas in the 
+so filtering out those was necessary for further analysis. Furthermore, the original dataset uses a comma in the cell for price, so I chose to remove all commas in the 
 cleaned version of the dataset.
