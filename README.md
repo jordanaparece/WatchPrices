@@ -32,7 +32,7 @@ brand, model, movement type, complication, and most importantly, the price in US
   * High‐end brands often have fewer models, but each priced higher.
 
 
-# Tools Used
+# Technologies Used
 * SQL, PGAdming4, Postgresql, Excel, Tableau
 * SQL techniques used - CTEs, CASE statement, basic select and group by functions, aggregate functions
 
