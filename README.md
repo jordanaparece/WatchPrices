@@ -1,9 +1,8 @@
 # 🕰️ Uncovering the Main Drivers of Luxury Watch Prices
 Welcome to this data-driven deep dive into the luxury watch market ⌚💎 — where heritage, craftsmanship, and precision meet data analytics. Whether you're a fellow watch enthusiast, a budding data analyst, or just curious about what makes a watch worth $1,000 vs. $100,000, this project is for you.
-If you know me, I love watches. I bought my first luxury watch 15 months ago, and since then have developed a true love for horology. In this time, I have learned about what I like in a watch, what I am looking for in my next purchase, and have helped others buy their furst luxury timepiece. 
 
 # 📚 Background & Inspiration
-Watch collecting has long been one of my favorite hobbies. As I dove deeper into the world of horology, one question kept nagging me:
+If you know me, I love watches. I bought my first luxury watch 15 months ago, and since then have developed a true love for horology. In this time, I have learned about what I like in a watch, what I am looking for in my next purchase, and have helped others buy their furst luxury timepiece. Given that collecting has been one of my favorite hobbies, I dove deeper into the world of horology and one question kept nagging me:
 
 Why can two similar-looking watches vary so drastically in price?
 
@@ -19,11 +18,13 @@ This project leverages a luxury watch dataset from Kaggle to identify key factor
 ✅ Trends in Swiss vs. non-Swiss timepieces
 
 # 🛠️ Tech Stack & Tools Used
-Tool/Tech	Purpose
-SQL (PostgreSQL)	Data querying and transformation
-pgAdmin4	SQL interface and database management
-Excel	Data cleaning and preprocessing
-Tableau	Dashboard and data visualizations
+SQL (PostgreSQL): Data querying and transformation
+
+pgAdmin4:	SQL interface and database management
+
+Tableau:	Dashboard and data visualizations
+
+
 SQL Techniques Used:
 
 Common Table Expressions (CTEs)
@@ -64,3 +65,4 @@ Watches with multiple complications (tourbillon, perpetual calendar, etc.) see s
 
 💸 Best Value Tip
 Looking for affordability in the luxury space? GMT watches offer complexity without breaking the bank.
+
