@@ -2,7 +2,7 @@
 Welcome to this data-driven deep dive into the luxury watch market ⌚💎 — where heritage, craftsmanship, and precision meet data analytics. Whether you're a fellow watch enthusiast, a budding data analyst, or just curious about what makes a watch worth $1,000 vs. $100,000, this project is for you.
 
 # 📚 Background & Inspiration
-If you know me, I love watches. I bought my first luxury watch 15 months ago, and since then have developed a true love for horology. In this time, I have learned about what I like in a watch, what I am looking for in my next purchase, and have helped others buy their furst luxury timepiece. Given that collecting has been one of my favorite hobbies, I dove deeper into the world of horology and one question kept nagging me:
+If you know me, I love watches. I bought my first luxury watch 15 months ago, and since then have developed a true love for horology. In this time, I have learned about what I like in a watch, what I am looking for in my next purchase, and have helped others buy their first luxury timepiece. Given that collecting has been one of my favorite hobbies, I dove deeper into the world of horology and one question kept nagging me:
 
 Why can two similar-looking watches vary so drastically in price?
 
