@@ -51,11 +51,11 @@ Here are a few examples of the interactive Tableau dashboards used:
 📍 Brand vs. Model Count Distribution
 
 # 🧹 Data Challenges & Cleaning
-Many NaN and null values required filtering before analysis
+* Many NaN and null values required filtering before analysis
 
-Prices contained commas (e.g., "15,000") which needed cleaning to ensure numerical accuracy
+* Prices contained commas (e.g., "15,000") which needed cleaning to ensure numerical accuracy
 
-Some records lacked clarity on complication types, requiring categorical simplification
+* Some records lacked clarity on complication types, requiring categorical simplification
 
 # 💡 Key Insights & Recommendations
 🧭 Swiss Brands Reign Supreme
