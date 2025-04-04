@@ -29,15 +29,16 @@ pgAdmin4:	SQL interface and database management
 Tableau:	Dashboard and data visualizations
 
 
+
 SQL Techniques Used:
 
-Common Table Expressions (CTEs)
+* Common Table Expressions (CTEs)
 
-CASE statements
+* CASE statements
 
-GROUP BY, aggregation functions
+* GROUP BY, aggregation functions
 
-Data filtering and cleaning
+* Data filtering and cleaning
 
 # 📈 Visual Dashboard Snapshots
 Here are a few examples of the interactive Tableau dashboards used:
