@@ -12,9 +12,13 @@ This project helped me combine my passion for watches with my analytical skills 
 This project leverages a luxury watch dataset from Kaggle to identify key factors that influence watch prices. Through SQL queries and data visualizations, I explored:
 
 ✅ Average price by brand, country of origin, movement, and crystal material
+
 ✅ How case diameter affects pricing
+
 ✅ The impact of complications (chronograph, moonphase, tourbillon, etc.)
+
 ✅ Model counts vs. average prices across brands
+
 ✅ Trends in Swiss vs. non-Swiss timepieces
 
 # 🛠️ Tech Stack & Tools Used
@@ -39,8 +43,11 @@ Data filtering and cleaning
 Here are a few examples of the interactive Tableau dashboards used:
 
 📍 Average Price by Country of Origin
+
 📍 Price vs. Case Diameter
+
 📍 Complications and Their Price Impact
+
 📍 Brand vs. Model Count Distribution
 
 # 🧹 Data Challenges & Cleaning
@@ -52,17 +59,22 @@ Some records lacked clarity on complication types, requiring categorical simplif
 
 # 💡 Key Insights & Recommendations
 🧭 Swiss Brands Reign Supreme
-Swiss-made watches dominate the high-end spectrum, often linked to superior craftsmanship and heritage.
+
+* Swiss-made watches dominate the high-end spectrum, often linked to superior craftsmanship and heritage.
 
 🔧 Movement Matters
-Automatic watches (especially Swiss) command higher prices than quartz.
+
+* Automatic watches (especially Swiss) command higher prices than quartz.
 
 🔍 Crystal Clarity Comes at a Cost
-Watches with sapphire crystal tend to be priced higher than those with mineral or acrylic crystals.
+
+* Watches with sapphire crystal tend to be priced higher than those with mineral or acrylic crystals.
 
 🌕 More Complications = Higher Price
-Watches with multiple complications (tourbillon, perpetual calendar, etc.) see significant price jumps.
+
+* Watches with multiple complications (tourbillon, perpetual calendar, etc.) see significant price jumps.
 
 💸 Best Value Tip
-Looking for affordability in the luxury space? GMT watches offer complexity without breaking the bank.
+
+* Looking for affordability in the luxury space? GMT watches offer complexity without breaking the bank.
 
