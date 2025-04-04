@@ -1,42 +1,66 @@
-# Uncovering the Main Drivers of Luxury Watch Prices
-The findings are open to anybody! But those into watch collecting might find it more fascinating.
+# 🕰️ Uncovering the Main Drivers of Luxury Watch Prices
+Welcome to this data-driven deep dive into the luxury watch market ⌚💎 — where heritage, craftsmanship, and precision meet data analytics. Whether you're a fellow watch enthusiast, a budding data analyst, or just curious about what makes a watch worth $1,000 vs. $100,000, this project is for you.
+If you know me, I love watches. I bought my first luxury watch 15 months ago, and since then have developed a true love for horology. In this time, I have learned about what I like in a watch, what I am looking for in my next purchase, and have helped others buy their furst luxury timepiece. 
 
-Watch collecting is one of my main hobbies, so completing this project was very insightful to me and further enhanced my knowledge in horology. 
-Since starting watch collecting, I have been aware of the somtimes lucrative price tags on timepieces, and always wondered why some watches
-can be twice as expensive as a similar watch. 
+# 📚 Background & Inspiration
+Watch collecting has long been one of my favorite hobbies. As I dove deeper into the world of horology, one question kept nagging me:
 
-# Project Overview
-This project analyzes a dataset of watch specifications (brand, model, price, movement type, country of origin, case diameter, crystal material, complications, etc.). The goal is to derive insights about:
+Why can two similar-looking watches vary so drastically in price?
 
-* Average price by brand, country of origin, crystal type, and more
-* The relationship between watch diameter and price
-* The effect of complications (e.g., chronograph, moonphase) on the average price
-* Brand vs. model count distribution and average prices
+This project helped me combine my passion for watches with my analytical skills to finally explore what drives these price differences — using real-world data.
 
-By combining SQL queries and data visualizations, I uncover which factors most influence watch pricing and highlight interesting trends in the luxury watch market.
+# 📊 Project Overview
+This project leverages a luxury watch dataset from Kaggle to identify key factors that influence watch prices. Through SQL queries and data visualizations, I explored:
 
-# Data Overview
-The dataset was used from Kaggle (https://www.kaggle.com/datasets/rkiattisak/luxury-watches-price-dataset/code). The data includes multiple primary fields such as
-brand, model, movement type, complication, and most importantly, the price in USD. 
+✅ Average price by brand, country of origin, movement, and crystal material
+✅ How case diameter affects pricing
+✅ The impact of complications (chronograph, moonphase, tourbillon, etc.)
+✅ Model counts vs. average prices across brands
+✅ Trends in Swiss vs. non-Swiss timepieces
 
-# Key Recommendations
-1. Swiss Brands Dominate on Price
-  * Swiss watchmakers have the highest average price - reflecting the premium associated with Swiss craftsmanship and heritage.
-2. Movement & Crystal Material
-  * Automatic watches with sapphire crystals generally command higher prices compared to quartz watches with mineral crystals.
-3. Complications Correlate With Higher Prices
-  * High‐complexity features (tourbillon, perpetual calendar, minute repeater, etc.) significantly raise average prices.
-  * If a buyer is looking to spend the least on a luxury watch, look for a GMT (second time zone) watch.
-4. Brand Model Count
-  * Some brands release many models at varying price points, which can lower their overall average price or create broad brand diversity.
-  * High‐end brands often have fewer models, but each priced higher.
+# 🛠️ Tech Stack & Tools Used
+Tool/Tech	Purpose
+SQL (PostgreSQL)	Data querying and transformation
+pgAdmin4	SQL interface and database management
+Excel	Data cleaning and preprocessing
+Tableau	Dashboard and data visualizations
+SQL Techniques Used:
 
+Common Table Expressions (CTEs)
 
-# Technologies Used
-* SQL, PGAdming4, Postgresql, Excel, Tableau
-* SQL techniques used - CTEs, CASE statement, basic select and group by functions, aggregate functions
+CASE statements
 
-# Challenges
-The main challenge of performing analysis on this dataset was data cleaning. In the original dataset from Kaggle, there were n/a values present in the dataset,
-so filtering out those was necessary for further analysis. Furthermore, the original dataset uses a comma in the cell for price, so I chose to remove all commas in the 
-cleaned version of the dataset.
+GROUP BY, aggregation functions
+
+Data filtering and cleaning
+
+# 📈 Visual Dashboard Snapshots
+Here are a few examples of the interactive Tableau dashboards used:
+
+📍 Average Price by Country of Origin
+📍 Price vs. Case Diameter
+📍 Complications and Their Price Impact
+📍 Brand vs. Model Count Distribution
+
+# 🧹 Data Challenges & Cleaning
+Many NaN and null values required filtering before analysis
+
+Prices contained commas (e.g., "15,000") which needed cleaning to ensure numerical accuracy
+
+Some records lacked clarity on complication types, requiring categorical simplification
+
+# 💡 Key Insights & Recommendations
+🧭 Swiss Brands Reign Supreme
+Swiss-made watches dominate the high-end spectrum, often linked to superior craftsmanship and heritage.
+
+🔧 Movement Matters
+Automatic watches (especially Swiss) command higher prices than quartz.
+
+🔍 Crystal Clarity Comes at a Cost
+Watches with sapphire crystal tend to be priced higher than those with mineral or acrylic crystals.
+
+🌕 More Complications = Higher Price
+Watches with multiple complications (tourbillon, perpetual calendar, etc.) see significant price jumps.
+
+💸 Best Value Tip
+Looking for affordability in the luxury space? GMT watches offer complexity without breaking the bank.
